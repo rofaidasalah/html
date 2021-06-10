@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>Central Processing Unit (CPU)</h1>
+
+  <h2>Topics: </h2>
+  <ul>
+    <li><a href="file:///C:/html/mainpage.html">Main Page</a></li>
+    <li><a href="file:///C:/html/Neumann.html">The von Neumann Architecture</a></li>
+    <li><a href="file:///C:/html/Memory.html">Memory</a></li>
+    <li><a href="file:///C:/html/CPU.html">Central Processing Unit (CPU)</a></li>
+    <li><a href="file:///C:/html/InoutandOutput.html">Input and Output</a></li>
+  </ul>
+  
+  <h2>Central Processing Unit(CPU)</h2>
+  <p>The CPU—the centerpiece of the computer’s architecture—is in charge of executing the instructions of the currently loaded program. The CPU executes these tasks using three main hardware elements: an Arithmetic-Logic Unit (ALU), a set of registers, and a control unit.</p>
+  <p>The CPU operation can be described as a repeated loop: decode the current instruction, execute it, figure out which instruction to execute next, fetch it, decode it, and so on. This process is sometimes referred to as the fetch-execute cycle.</p>
+  
+  <h2>Fetching</h2>
+  <p>1. Put the location of the next instruction in the Memory address input</p>
+  <p>2. Get the instruction code by reading the contents at that Memory location</p>
+  <img src="Fetching.png" alt="Fetching">
+  
+  <h2>Executing</h2>
+  <p>-The instruction code specifies what to do</p>
+     <p>1. Which arithmetic or logical instruction to execute</p>
+     <p>2. Which memory address to access (for read / write)</p>
+     <p>3. If / where to jump</p>
+  
+  <p>-Executing the instruction involves:</p>
+     <p>1. accessing registers</p>
+     <p>2. accessing the data memory.</p>
+  <img src="Executing.png" alt="Executing">
+  
+  <h2>Arithmetic Logic Unit</h2>
+  <p>perform all the low-level arithmetic and logical operations.</p>
+  <p>Any function not supported by the ALU as a primitive hardware operation can be later realized by the computer’s system software.</p>
+  
+  
+  <h2>Registers</h2>
+  <p>store the intermediate results(rather than ship them in and out of the CPU chip and store them in RAM chip).</p>
+  <p>typically equipped with a small set of 2 up to 32 resident high-speed registers, each capable of holding a single word.</p>
+  
+  <h2>Control Unit</h2>
+  <p>decoded binary instructions.</p>
+  <p>signal various hardware devices (ALU, registers, memory) how to execute the instructions.</p>
+</body>
+</html>
